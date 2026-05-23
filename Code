@@ -1,1 +1,48 @@
-
+Program: 
+#include <SoftwareSerial.h> 
+ 
+SoftwareSerial BT(6, 7); // RX, TX 
+ 
+void setup() 
+{ 
+  Serial.begin(9600); 
+  BT.begin(9600); 
+ 
+  pinMode(12, OUTPUT); // Relay 1 
+  pinMode(11, OUTPUT); // Relay 2 
+  pinMode(10, OUTPUT); // Relay 3 
+  pinMode(9, OUTPUT);  // Relay 4 
+ 
+  // IMPORTANT: Relay OFF initially (LOW-trigger module) 
+  digitalWrite(12, HIGH); 
+  digitalWrite(11, HIGH); 
+  digitalWrite(10, HIGH); 
+  digitalWrite(9, HIGH); 
+}
+void loop() 
+{ 
+  if (BT.available()) 
+  { 
+    char data = BT.read(); 
+    Serial.println(data); 
+ 
+    switch (data) 
+    { 
+      // Relay 1 
+      case 'A': digitalWrite(12, LOW); break;  // ON 
+      case 'B': digitalWrite(12, HIGH); break; // OFF 
+ 
+      // Relay 2 
+      case 'C': digitalWrite(11, LOW); break; 
+      case 'D': digitalWrite(11, HIGH); break; 
+ 
+      // Relay 3 
+      case 'E': digitalWrite(10, LOW); break; 
+      case 'F': digitalWrite(10, HIGH); break; 
+ 
+      // Relay 4 
+      case 'G': digitalWrite(9, LOW); break; 
+      case 'H': digitalWrite(9, HIGH); break; 
+    } 
+  } 
+} 
