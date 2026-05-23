@@ -1,0 +1,45 @@
+# Demo Video
+
+## Project Demo Video Link
+
+A demonstration video showing the complete working of the Bluetooth Smart Home Automation System is available at the link below:
+
+---
+
+**YouTube Demo Link:**
+[Add your YouTube video link here after recording]
+
+Example format:
+https://www.youtube.com/watch?v=YOUR_VIDEO_ID
+
+---
+
+## What the Demo Video Should Show
+
+1. **Hardware Setup Overview** – All components laid out and connected.
+2. **Power ON** – HC-05 LED blinking (searching mode).
+3. **Bluetooth Pairing** – Pairing smartphone with HC-05.
+4. **App Connection** – Connecting Serial Bluetooth Terminal to HC-05.
+5. **Individual Appliance Control** – Sending commands 1–8, showing each relay click and appliance ON/OFF.
+6. **ALL ON / ALL OFF** – Sending 'A' and 'Z' commands.
+7. **Serial Monitor Output** – Showing debug messages in Arduino IDE.
+8. **Range Test** – Walking away from the circuit and testing commands at distance.
+
+---
+
+## Recording Tips
+
+- Use OBS Studio or your phone's screen recorder to capture both the app screen and the hardware simultaneously.
+- Good lighting helps show the relay LED indicators clearly.
+- Keep video duration between 3–5 minutes for GitHub portfolio purposes.
+- Add text overlays for each command being sent.
+
+---
+
+## Thumbnail Suggestion
+
+Include the following in the thumbnail:
+- Arduino UNO board visible
+- HC-05 module highlighted
+- Relay module with LEDs glowing
+- Title: "Bluetooth Smart Home Automation | Arduino + HC-05"
