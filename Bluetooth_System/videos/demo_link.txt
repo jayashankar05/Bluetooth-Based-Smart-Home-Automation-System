@@ -4,15 +4,11 @@
 
 A demonstration video showing the complete working of the Bluetooth Smart Home Automation System is available at the link below:
 
----
+https://drive.google.com/file/d/1AW4cXzEZgjOhsJB_iDvxssyDpQLlWFuE/view?usp=drive_link
 
 **YouTube Demo Link:**
-[Add your YouTube video link here after recording]
+[https://www.youtube.com/watch?v=txZmvE7FD0c]
 
-Example format:
-https://www.youtube.com/watch?v=YOUR_VIDEO_ID
-
----
 
 ## What the Demo Video Should Show
 
@@ -43,3 +39,5 @@ Include the following in the thumbnail:
 - HC-05 module highlighted
 - Relay module with LEDs glowing
 - Title: "Bluetooth Smart Home Automation | Arduino + HC-05"
+
+
