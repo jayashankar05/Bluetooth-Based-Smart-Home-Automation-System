@@ -35,3 +35,5 @@ Once images are captured and placed in this folder, they are referenced in READM
 ![Setup Photo](images/setup.jpg)
 ![Working Demo](images/working.jpg)
 ```
+<img width="1280" height="960" alt="Setup jpg" src="https://github.com/user-attachments/assets/8a213128-5e94-402e-a5e3-5ab83cff3226" />
+
