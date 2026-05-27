@@ -52,7 +52,7 @@
 
 ---
 
-## Serial Monitor Debug Output (Arduino IDE)
+## Serial Monitor Debug Output (Arduino IDE)code dummping
 
 When a command is received, the Serial Monitor (9600 baud) displays:
 
