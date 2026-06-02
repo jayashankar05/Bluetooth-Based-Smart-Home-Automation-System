@@ -1,6 +1,6 @@
 # 📡 Bluetooth Based Smart Home Automation System
 
-> A low-cost, wireless home automation system using Arduino UNO and HC-05 Bluetooth module to control household appliances via a smartphone.sjfjsbsbejdjxbb
+> A low-cost, wireless home automation system using Arduino UNO and HC-05 Bluetooth module to control household appliances via a smartphone.
 
 ---
 
