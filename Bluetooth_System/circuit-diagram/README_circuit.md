@@ -1,6 +1,6 @@
 # Circuit Diagrams – Placeholder Guide
 
-This folder contains circuit schematics and diagrams for the project.xcvfhfvxc
+This folder contains circuit schematics and diagrams for the project.
 
 ## Files in This Folder
 
